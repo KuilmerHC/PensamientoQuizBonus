@@ -1,2 +1,2 @@
 # PensamientoQuizBonus
-This project is to practice with data type list in Python and C++
+This project is a practice with lists in Python and C++

@@ -1,7 +1,10 @@
 #instructions to run the program (windows, Linux and MacOS)
 ---
+#C++
+---
  - MacOs
-     - **Step 1**:  Check if you have a C++ compiler
+ ---
+   - **Step 1**:  Check if you have a C++ compiler
         
         Open your terminal and you will put this: 
         

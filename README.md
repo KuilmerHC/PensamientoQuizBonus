@@ -48,7 +48,7 @@
         - **Step 1**: You need to install a C++ compiler.
             1. Option 1: Install MinGW-w64, this is recommended for beginners, you can install from the official website, select and download the vertion more recommended.
                 
-               ![image.png](attachment:7b24953c-b88f-403a-99f3-98777d90efcc:image.png)
+               imagenes/img 1.png
                 
                 - Open **File Explorer**, right-click on **This PC** → **Properties**.
                 - Go to **Advanced system settings** → **Environment Variables**.

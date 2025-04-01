@@ -48,48 +48,49 @@
             ```
             
         - **Step 3:** Finally, if you want to use VSC, it is so easy, you have VSC only you have to install the Extnsion  C/C++ by microsoft and create a file but you have to write “cpp” at the end.
-    - Windows
-        - **Step 1**: You need to install a C++ compiler.
+---
+ ## - Windows
+   - **Step 1**: You need to install a C++ compiler.
             1. Option 1: Install MinGW-w64, this is recommended for beginners, you can install from the official website, select and download the vertion more recommended.
                 
-               ![image_1](https://github.com/KuilmerHC/PensamientoQuizBonus/blob/927c49d8787641c442d41298990600b9060ad7a6/imagenes/img%201.png?raw=true)
+ ![image_1](https://github.com/KuilmerHC/PensamientoQuizBonus/blob/927c49d8787641c442d41298990600b9060ad7a6/imagenes/img%201.png?raw=true)
                 
-                - Open **File Explorer**, right-click on **This PC** → **Properties**.
-                - Go to **Advanced system settings** → **Environment Variables**.
-                - Under **System Variables**, select `Path` and click **Edit**.
-                - Click **New** and add the path where you installed MinGW, for example:
+  - Open **File Explorer**, right-click on **This PC** → **Properties**.
+  - Go to **Advanced system settings** → **Environment Variables**.
+  - Under **System Variables**, select `Path` and click **Edit**.
+  - Click **New** and add the path where you installed MinGW, for example:
                     
-                    ```cpp
-                    C:\mingw-w64\bin
-                    ```
+     ```cpp
+     C:\mingw-w64\bin
+     ```
                     
                 
-                Finally you need to verify the installation, when you open your terminal you enter this command: 
+      Finally you need to verify the installation, when you open your terminal you enter this command: 
                 
-                ```cpp
-                g++ --version
-                ```
+       ```cpp
+        g++ --version
+       ```
                 
-                if you see a GCC version, the compiler was correctly install.
+    if you see a GCC version, the compiler was correctly install.
                 
-        - **Step 2:** If you do not have VSC you can install whit this process:
+     - **Step 2:** If you do not have VSC you can install whit this process:
             1. You need to search VSC in google and click on “download for windows”
             
-           link
+      link
             
-            d. After that you are going to go to your files and choose download and click on it.
+      d. After that you are going to go to your files and choose download and click on it.
             
-            ![image_2](https://github.com/user-attachments/assets/229afedc-2d13-4aa3-8cef-669fd66f13b8)
+      ![image_2](https://github.com/user-attachments/assets/229afedc-2d13-4aa3-8cef-669fd66f13b8)
 
             
-            c. Next to do that, we run it and the app will open, when the app will be opening, it  show the main panel. (like this)
+       c. Next to do that, we run it and the app will open, when the app will be opening, it  show the main panel. (like this)
             
-            ![image_3](https://github.com/user-attachments/assets/7fd57eff-7234-40ce-8238-630f246a0bb5)
+       ![image_3](https://github.com/user-attachments/assets/7fd57eff-7234-40ce-8238-630f246a0bb5)
 
             
-        - **Step 3:** you have to go to extensions, search C/C++and install by microsoft.
+    - **Step 3:** you have to go to extensions, search C/C++and install by microsoft.
             
-            ![image_4](https://github.com/user-attachments/assets/5fa88cd8-c832-4fee-a9bb-cbf3389cbaf1)
+      ![image_4](https://github.com/user-attachments/assets/5fa88cd8-c832-4fee-a9bb-cbf3389cbaf1)
 
             
         - **Step 4: C**onfigure C++ in VS Code. To do that you need to open VS Code and press `Ctrl + ~` to open the integrated terminal. Select the compiler pressing `Ctrl + Shift + P` to open the command:
@@ -100,7 +101,7 @@
             
             ✅ **Done!** You can now write and compile **C++ programs in Windows** using **VS Code**. 🚀
             
-    - Linux
+   - Linux
         - **Step 1:** Check if you have C++ compiler. For that, you got to open your terminal and put this code:
             
             ```cpp

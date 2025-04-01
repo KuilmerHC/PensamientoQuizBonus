@@ -435,3 +435,92 @@ caras = []
             indices = " ".join(map(str, cara))
             print("f", indices)
 ```
+----
+## C++ 
+---
+- Constants and Menu
+```cpp
+const int MAX_VERTICES = 100;
+const int MAX_CARAS = 100;
+const int MAX_INDICES = 100;
+
+int menu() {
+    // Prints a menu with 6 options
+    return 0;  // Note: Should return `void` (no logical purpose for `return 0`)
+}
+```
+- Defines limits for mesh data and displays interactive menu options.
+
+-Main Program Workflow
+```cpp
+int main() {
+    // Initializations
+    int seleccion_user;                     // User's menu choice
+    int vertices_totales = 0;               // Total vertices
+    int caras_totales = 0;                  // Total faces
+    int vertices[MAX_VERTICES * 3] = {0};   // Stores x,y,z for each vertex (flattened array)
+    int caras_indices[MAX_INDICES] = {0};   // Stores all vertex indices for faces
+    int caras_longitud[MAX_CARAS] = {0};    // Stores vertex count per face
+    int caras_count = 0;                    // Tracks position in caras_indices
+```
+vertex: Flattened array storing [x1,y1,z1, x2,y2,z2, ...].
+
+faces_index: Sequential list of vertex indices for all faces.
+
+faces_long: Number of vertices per face (e.g., 3 for triangles).
+
+- Menu Options (While Loop)
+
+Option 1: Set total vertices.
+
+```cpp
+cin >> vertices_totales;
+```
+
+Option 2: Input vertex coordinates.
+
+```cpp
+for (int i = 0; i < vertices_totales; i++) {
+    cin >> vertices[i*3] >> vertices[i*3 +1] >> vertices[i*3 +2];  // x,y,z
+}
+```
+Option 3: Set total faces.
+
+```cpp
+cin >> caras_totales;
+```
+Option 4: Input face vertex indices.
+
+```cpp
+for (int face = 0; face < caras_totales; face++) {
+    cin >> num_vertices;
+    caras_longitud[face] = num_vertices;
+    for (int j = 0; j < num_vertices; j++) {
+        cin >> caras_indices[caras_count + j];  // Store vertex indices
+    }
+    caras_count += num_vertices;  // Update position tracker
+}
+```
+Option 5: Print .OBJ format.
+
+```cpp
+// Vertices (v x y z)
+for (int i = 0; i < vertices_totales; i++) {
+    cout << "v " << vertices[i*3] << " " << vertices[i*3+1] << " " << vertices[i*3+2] << endl;
+}
+// Faces (f v1 v2 v3 ...)
+int current_index = 0;
+for (int face = 0; face < caras_totales; face++) {
+    cout << "f ";
+    for (int j = 0; j < caras_longitud[face]; j++) {
+        cout << caras_indices[current_index + j] << " ";
+    }
+    current_index += caras_longitud[face];
+    cout << endl;
+}
+```
+Option 6: Exit.
+
+```cpp
+break;  // Exits the infinite loop
+```

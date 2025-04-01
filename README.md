@@ -75,7 +75,8 @@
             
             d. After that you are going to go to your files and choose download and click on it.
             
-            ![image_2](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
+            ![image_2](https://github.com/user-attachments/assets/229afedc-2d13-4aa3-8cef-669fd66f13b8)
+
             
             c. Next to do that, we run it and the app will open, when the app will be opening, it  show the main panel. (like this)
             

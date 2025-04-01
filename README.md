@@ -48,7 +48,7 @@
         - **Step 1**: You need to install a C++ compiler.
             1. Option 1: Install MinGW-w64, this is recommended for beginners, you can install from the official website, select and download the vertion more recommended.
                 
-               ![ejemplo grafico](https://github.com/KuilmerHC/PensamientoQuizBonus/blob/927c49d8787641c442d41298990600b9060ad7a6/imagenes/img%201.png?raw=true)
+               ![image_1](https://github.com/KuilmerHC/PensamientoQuizBonus/blob/927c49d8787641c442d41298990600b9060ad7a6/imagenes/img%201.png?raw=true)
                 
                 - Open **File Explorer**, right-click on **This PC** → **Properties**.
                 - Go to **Advanced system settings** → **Environment Variables**.
@@ -75,15 +75,15 @@
             
             d. After that you are going to go to your files and choose download and click on it.
             
-            ![image.png](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
+            ![image_2](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
             
             c. Next to do that, we run it and the app will open, when the app will be opening, it  show the main panel. (like this)
             
-            ![ZHzst.png](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
+            ![image_3](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
             
         - **Step 3:** you have to go to extensions, search C/C++and install by microsoft.
             
-            ![image.png](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
+            ![image_4](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
             
         - **Step 4: C**onfigure C++ in VS Code. To do that you need to open VS Code and press `Ctrl + ~` to open the integrated terminal. Select the compiler pressing `Ctrl + Shift + P` to open the command:
             
@@ -157,7 +157,7 @@
             
             Finally you have to install the extension.
             
-            ![image.png](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
+            ![image_5](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
             
             ✅ **Done!** You can now write and compile **C++ programs on Linux** easily. 🚀
 

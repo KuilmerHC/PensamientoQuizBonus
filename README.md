@@ -317,3 +317,58 @@ ___
 ## Python Code:
 ---
 - First we define the menu as a function that we can call later
+
+  ```python
+  def menu ():
+  print ("""
+  ------------------------------------------------------------------------- 
+  |  1. Ingrese la cantidad de vertices.                                  |
+  |  2. Ingrese las coordenadas de los vértices.                          |
+  |  3. Ingrese la cantidad de caras.                                     |
+  |  4. Ingrese los indices de las caras.       |
+  |  5. Imprimir el programa.                                             |
+  |  6. Salir del programa.                                               |   
+  ------------------------------------------------------------------------- 
+         """)
+  ```
+  the first output that gives the program is the menu askin for an input. (for example, if you want to enter the vertex quantity you must writte "1")
+ 
+ ```python
+while True:
+    seleccion_usr = int(input("Seleccione una opción para acceder al menu: "))
+    print("---------------------------------------------------------------------")
+
+  #input = 1
+ ```
+- if the input is "1", this will be the out put
+```python
+if seleccion_usr == 1:   
+        while True:
+            try:
+                vertices_totales = int(input("Ingrese la cantidad de vértices: "))
+                break
+            except ValueError:
+                print("Error: Ingrese un valor numerico entero")
+        menu()       
+```
+- With an "if" we make that the program do the things that are define in the menu
+  for example:
+
+```python
+if seleccion_usr == 2:
+        vertices = [] # Guardar todos los vertices
+        for i in range(vertices_totales):
+            while True:
+                coordenadas_vertice = input(f"Ingrese las coordenas del vértice {i+1} (x y z): ")
+                try:
+                    x, y, z = map(int, coordenadas_vertice.split())
+                    vertices.append((x, y, z))
+                    break
+                except ValueError:
+                    print("Error: Ingresa unicamente valores numericos enteros separados por un espacio")
+```
+- to conclude the menu explanation, we use and the end of every condition the calling of the function
+  ```python
+  menu()
+  ```
+  for ask one more time to the user what they wat to do

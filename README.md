@@ -85,7 +85,8 @@
             
         - **Step 3:** you have to go to extensions, search C/C++and install by microsoft.
             
-            ![image_4](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
+            ![image_4](https://github.com/user-attachments/assets/5fa88cd8-c832-4fee-a9bb-cbf3389cbaf1)
+
             
         - **Step 4: C**onfigure C++ in VS Code. To do that you need to open VS Code and press `Ctrl + ~` to open the integrated terminal. Select the compiler pressing `Ctrl + Shift + P` to open the command:
             

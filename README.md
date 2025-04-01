@@ -2,7 +2,7 @@
 ---
 #C++
 ---
- - MacOs
+ ##- MacOs
  ---
    - **Step 1**:  Check if you have a C++ compiler
         

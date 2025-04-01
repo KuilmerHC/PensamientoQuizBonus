@@ -100,15 +100,16 @@
             ```
             
             ✅ **Done!** You can now write and compile **C++ programs in Windows** using **VS Code**. 🚀
+          ---     
+ ##  - Linux
+   ---
+   - **Step 1:** Check if you have C++ compiler. For that, you got to open your terminal and put this code:
             
-   - Linux
-        - **Step 1:** Check if you have C++ compiler. For that, you got to open your terminal and put this code:
+     ```cpp
+      g++ --version
+     ```
             
-            ```cpp
-            g++ --version
-            ```
-            
-            if you have information about g++, you have a c++ compiler, but you dont have g++ information, you have to install a c++ compiler. 
+     if you have information about g++, you have a c++ compiler, but you dont have g++ information, you have to install a c++ compiler. 
             
         - **Step 2:** You can install in diferents operational systems for each one has diferent commands.  Run this commands in your terminal.
             

@@ -1,4 +1,5 @@
-- Instructions to run the program (Windows, Linux, MacOS
+#instructions to run the program (windows, Linux and MacOS)
+-------
     - MacOs
         - **Step 1**:  Check if you have a C++ compiler
         

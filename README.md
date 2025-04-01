@@ -1,6 +1,6 @@
-#instructions to run the program (windows, Linux and MacOS)
+# instructions to run the program (windows, Linux and MacOS)
 ---
-#C++
+# C++
 ---
 - MacOs
  ---

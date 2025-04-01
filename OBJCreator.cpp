@@ -18,13 +18,13 @@ int menu() {
 }
 
 int main() {
-    int seleccion_user;
-    int vertices_totales = 0;
-    int caras_totales = 0;
-    int vertices[MAX_VERTICES * 3] = {0}; // Almacena x,y,z de cada vértice
-    int caras_indices[MAX_INDICES] = {0}; // Almacena todos los índices de las caras
-    int caras_longitud[MAX_CARAS] = {0};  // Almacena el número de vértices por cara
-    int caras_count = 0;                  // Contador de índices en caras_indices
+    int seleccion_user;                     // Selección del usuario
+    int vertices_totales = 0;               // Total de vértices
+    int caras_totales = 0;                  // Total de caras
+    int vertices[MAX_VERTICES] = {0};       // Almacena x,y,z de cada vértice
+    int caras_indices[MAX_INDICES] = {0};   // Almacena todos los índices de las caras
+    int caras_longitud[MAX_CARAS] = {0};    // Almacena el número de vértices por cara
+    int caras_count = 0;                    // Contador de índices en caras_indices
 
     menu();
 

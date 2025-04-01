@@ -310,4 +310,10 @@ ___
     ```
     
     ✅ Great, you already have python in Linux, you can now program. 
-
+----
+---
+# Code explanation:
+---
+## Python Code:
+---
+- First we define the menu as a function that we can call later

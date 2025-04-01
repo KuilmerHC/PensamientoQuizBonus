@@ -160,7 +160,8 @@
             
             Finally you have to install the extension.
             
-            ![image_5](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
+            ![image_5](https://github.com/user-attachments/assets/c11169ad-9469-4d6d-93a3-9cd5c7c49d73)
+
             
             ✅ **Done!** You can now write and compile **C++ programs on Linux** easily. 🚀
 

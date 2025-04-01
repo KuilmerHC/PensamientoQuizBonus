@@ -367,7 +367,7 @@ if seleccion_usr == 2:
                 except ValueError:
                     print("Error: Ingresa unicamente valores numericos enteros separados por un espacio")
 ```
-- to conclude the menu explanation, we use and the end of every condition the calling of the function
+- to conclude the menu explanation, we use at the end of every condition the ```menu()```
   ```python
   menu()
   ```

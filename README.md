@@ -340,7 +340,7 @@ while True:
 
   #input = 1
  ```
-- if the input is "1", this will be the out put
+- if the input is "1", this will be the output
 ```python
 if seleccion_usr == 1:   
         while True:

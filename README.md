@@ -80,7 +80,8 @@
             
             c. Next to do that, we run it and the app will open, when the app will be opening, it  show the main panel. (like this)
             
-            ![image_3](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
+            ![image_3](https://github.com/user-attachments/assets/7fd57eff-7234-40ce-8238-630f246a0bb5)
+
             
         - **Step 3:** you have to go to extensions, search C/C++and install by microsoft.
             

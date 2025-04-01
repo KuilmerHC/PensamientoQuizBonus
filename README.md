@@ -371,4 +371,67 @@ if seleccion_usr == 2:
   ```python
   menu()
   ```
-  for ask one more time to the user what they wat to do
+  for ask one more time to the user what they want to do.
+----
+- with the help of while true we creat loops that repet until the input is correct
+  for the quantity of vertex we first ask the user for the number of vertex
+  ```python
+  while True:
+            try:
+                vertices_totales = int(input("Ingrese la cantidad de vértices: "))
+  ```
+- for the coords of the vertex we first define an empty array. then use an ```i in range``` of the number of vertex entered previously, then the program ask for a coord for each vertex usin in the strin the function ```{i+1}``` that sum un number for each output "vertex 1, vertex 2, vertex 3...". using the map function we transform each value in a integer and add them to the list with the .append function
+
+```python
+vertices = [] # Guardar todos los vertices
+        for i in range(vertices_totales):
+            while True:
+                coordenadas_vertice = input(f"Ingrese las coordenas del vértice {i+1} (x y z): ")
+                try:
+                    x, y, z = map(int, coordenadas_vertice.split())
+                    vertices.append((x, y, z))
+                    break
+                except ValueError:
+                    print("Error: Ingresa unicamente valores numericos enteros separados por un espacio")
+        menu()
+```
+---
+The same structure is used for faces, vertex of faces, and index of faces
+
+```python
+ while True:
+            try:
+                caras_totales = int(input("Ingrese la cantidad de caras: "))
+                break
+            except ValueError:
+                print("Error: Ingrese un valor numerico entero")
+        menu()
+caras = []
+        for i in range(caras_totales):
+            while True:
+                try:
+                    caras_vertices = int(input(f"Ingrese la cantidad de vertices para la cara {i+1}: "))
+                    caras_indices = input("Ingrese los indices de lo vertices (separados por espacio): ")
+                    
+                    indices_lista = list(map(int, caras_indices.split()))
+                    caras.append(indices_lista)
+                    break
+                except ValueError:
+                    print("Eror: Ingresa un valor numerico entero o las caras separados por un espacio")
+        menu()
+```
+---
+
+- For this output, we organize the values that were entered during the program and take them out giving them and especific order.
+- in the faces we define a new variable, take each value of the array and transform the in strings for sum them with an other string ```"f"```
+
+
+```python
+ print("# Salida en formato .obj: \n")
+        for v in vertices:
+                print("v", v[0], v[1], v[2])
+    
+        for cara in caras:
+            indices = " ".join(map(str, cara))
+            print("f", indices)
+```

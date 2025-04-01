@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-const int MAX_VERTICES = 100;   // Máximo 100 vértices (3*100 coordenadas)
-const int MAX_CARAS = 100;      // Máximo 100 caras
-const int MAX_INDICES = 100;    // Máximo 300 índices en total
+const int MAX_VERTICES = 100;  
+const int MAX_CARAS = 100;      
+const int MAX_INDICES = 100;   
 
 int menu() {
     cout << "\n---------------------------------------------------------------------" << endl;

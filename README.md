@@ -1,5 +1,5 @@
-#Instructions to run the program (Windows, Linux, MacOS
-    #- MacOs
+- Instructions to run the program (Windows, Linux, MacOS
+    - MacOs
         - **Step 1**:  Check if you have a C++ compiler
         
         Open your terminal and you will put this: 

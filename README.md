@@ -71,7 +71,7 @@
         - **Step 2:** If you do not have VSC you can install whit this process:
             1. You need to search VSC in google and click on “download for windows”
             
-            https://github.com/KuilmerHC/PensamientoQuizBonus/blob/5fac0346108dbb78fa67d678bb405d045b9d84c4/imagenes/image%202.png
+           link
             
             d. After that you are going to go to your files and choose download and click on it.
             
